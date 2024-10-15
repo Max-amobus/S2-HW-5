@@ -130,6 +130,14 @@ void Show_com()
     cout << "0.Exit" << endl;
 }
 
+void Avtor() 
+{
+    cout << "About avtor" << endl;
+    cout << "I'm 16 " << endl;
+    cout << "I study at IT Step" << endl;
+    cout << "I live in Ukraine" << endl;
+}
+
 
 
 
@@ -198,6 +206,8 @@ int main()
         }
 
     } while (count != 0);
+    cout << "<<---------------------------->>"<<endl;
+    Avtor();
     delete[] arr;
     return 0;
 }
